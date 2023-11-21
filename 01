@@ -1,0 +1,15 @@
+What is continuous integration
+code commit happen continuously
+github server
+this code would be build, tested and evaluated
+artifact at this stage
+stored in a software repository
+archive of files generated from teh build process
+in a specific format
+war / jar in java
+dll exe msi windows
+tar zip in linux
+ship to servers from repos for further testing
+software testers can complete software testing to production servers
+code will be fetched by the server
+this code is built, tested and lots of errors, bug, conflicts
