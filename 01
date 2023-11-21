@@ -13,3 +13,58 @@ ship to servers from repos for further testing
 software testers can complete software testing to production servers
 code will be fetched by the server
 this code is built, tested and lots of errors, bug, conflicts
+developers have to fix all this defects in severe places
+for every commit, the code should be build and tested to avoid bugs
+it is not humanly possible to do a release several times a day
+automate it
+fail notification, fix the code and commit again
+build new changes and store in a software repository
+most written code
+code -> fetch -> build -> test -> notify -> feedback
+detect defects at very early stage 
+
+Continuous integration ci in short
+jenkins failure notification
+IDE 
+are used for coding
+examples
+eclipse
+visual studio
+atom
+pycharm
+version control
+git 
+svn
+tfs
+perforce
+etc
+build tools
+maven ant gradle
+msbuild visual build
+ibm urban code 
+make 
+grunt
+software repository
+ci tools
+jenkins
+circleci
+teamcity
+bamboo ci
+6 - What is continuous delivery
+automatic process to give changes to servers
+enormous face
+imran teli
+CI watch it before continuing
+    - the process
+    CI is automation of code and test
+    automatically build and tested
+    if everything is good, the artifact is stored in software repositories
+    the goal of ci is to detect defects in early stage
+    Scene
+    - ops teams get regular request from the ci process from further testing
+    ops teams deploy artifacts to the server
+    higher lead time
+    devops teams such deployment failures
+    agile sdlc
+    regular code changes that need deploy 
+    
